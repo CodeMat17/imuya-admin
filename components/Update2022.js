@@ -63,7 +63,7 @@ const Update2022 = ({ id, name, months, amount }) => {
         <DrawerContent>
           <div className='w-full max-w-lg mx-auto'>
             <DrawerHeader>
-              <DrawerTitle>{name} - 2022</DrawerTitle>
+              <DrawerTitle className='uppercase'>{name} - 2022</DrawerTitle>
               <DrawerDescription>
                 <span className='font-medium text-lg mt-2'>Months</span>{" "}
                 <Input

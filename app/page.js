@@ -23,7 +23,7 @@ export default async function Home() {
         {dues &&
           dues.map((item) => (
             <div key={item.id}>
-              <Link href={`/member-dues/${item.id}`}>{item.name}</Link>
+              <Link href={`/member-dues/${item.id}`} className="uppercase">{item.name}</Link>
             </div>
           ))}
         {/* <pre>{JSON.stringify(dues, null, 2)}</pre> */}

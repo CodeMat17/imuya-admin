@@ -29,7 +29,7 @@ const MemberDues = async ({ params: { id } }) => {
     <div className='px-4 py-12 flex flex-col items-center justify-center w-full border'>
       <h1 className='text-3xl md:text-4xl text-center'>UPDATE DUES</h1>
       <div className='mt-12 w-full max-w-md'>
-        <p className='font-medium text-2xl text-center'>{due.name}</p>
+        <p className='font-medium text-2xl text-center uppercase'>{due.name}</p>
 
         <div className='flex justify-between mt-6 mb-3'>
           <p>2022</p>
