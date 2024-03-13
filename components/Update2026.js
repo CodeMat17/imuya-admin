@@ -69,9 +69,14 @@ const Update2026 = ({ id, name, months, amount }) => {
                 <Input
                   value={month}
                   onChange={(e) => setMonth(e.target.value)}
+                  className='border border-gray-500 mb-4'
                 />
                 <span className='font-medium text-lg mt-2'>Amount</span>{" "}
-                <Input value={amnt} onChange={(e) => setAmnt(e.target.value)} />
+                <Input
+                  value={amnt}
+                  onChange={(e) => setAmnt(e.target.value)}
+                  className='border border-gray-500'
+                />
               </DrawerDescription>
             </DrawerHeader>
             <DrawerFooter>

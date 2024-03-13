@@ -148,7 +148,7 @@ const AddDues = () => {
               <Input
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className='w-full'
+                className='w-full uppercase'
               />
               {noName && (
                 <span className='text-sm text-red-500 italic font-light'>
